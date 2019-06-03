@@ -145,9 +145,9 @@ app.listen(8080, (err) => {
     if (err) return console.log('Error', err);
     console.log('We track the port = 8080');
 
-    mongoose.connect(mongodb, function (err) {
-        if (err) throw err;
+//     mongoose.connect(mongodb, function (err) {
+//         if (err) throw err;
 
-        console.log('Successfully connected');
-    });
+//         console.log('Successfully connected');
+//     });
 });
